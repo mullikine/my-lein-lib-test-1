@@ -1,0 +1,6 @@
+#+BEGIN_SRC sh -n :sps xsh :async :results none
+  zsh && exit
+  cd "$(new-project my-lein-lib-test-1 clj)"
+  cd myleinlibrary || lein new myleinlibrary
+#+END_SRC
+
